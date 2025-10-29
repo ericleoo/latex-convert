@@ -1,0 +1,29 @@
+{
+  "name": "latex-math-convert",
+  "version": "0.1.0",
+  "description": "CLI to convert LaTeX bracket-style math (\\(\\), \\[\\]) in Markdown to dollar-style ($, $$)",
+  "bin": {
+    "latex-math-convert": "bin/latex-math-convert.js"
+  },
+  "type": "commonjs",
+  "packageManager": "pnpm@9.12.1",
+  "keywords": [
+    "markdown",
+    "latex",
+    "math",
+    "cli",
+    "converter"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node bin/latex-math-convert.js --help",
+    "dev": "node bin/latex-math-convert.js",
+    "test": "node bin/latex-math-convert.js --version"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
